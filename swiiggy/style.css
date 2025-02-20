@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.swg-header {
+    position: sticky;
+    z-index: 1000;
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, .15);
+    width: 100%;
+}
+
+
+.navbar {
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-logo {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    width: 30%;
+    align-items: center;
+   margin-left: 150px;
+    
+}
+
+.logo img{
+   height: 49px;
+   width: 49px;
+   border-radius: 20%;
+   
+}
+
+
+
+.nav-other1 {
+    text-decoration: underline;
+    margin-left: 40px;
+}
+
+.nav-other1 :hover {
+    color: orangered;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-help{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.nav-other{
+    display: flex;
+   
+    
+}
+
+.nav-other :hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+h4{
+    margin-left: 10px;
+    color: #02060CE6;
+    opacity: 0.9;
+}
+
+.navbar2 {
+    height: 254px;
+    width: 1100px;
+    padding: 16px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    height: 26px;
+    width: 300px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.lining {
+    margin-top: 25px;
+    border: 1px solid rgba(2, 6, 12, 0.05);
+}
+
+.resturant {
+    margin-top: 50px;
+    padding: 16px;
+    
+
+    
+}
+
+.items{ 
+    width: 100%;
+    display: flex;
+    
+}
+
+
+.hotels {
+    height: 182px;
+    width: 273px;
+    margin-top: 15px;
+    border-radius: 7%;
+    
+}
+
+.hotels2 {
+    height: 182px;
+    width: 273px;
+    margin-top: 15px;
+    border-radius: 7%;
+    margin-left: 30px;
+}
+
+.para {
+    width: 261px;
+    height: 22px;
+    font-weight: 600;
+    color: rgba(2, 6, 12, 0.92);
+    font-size: 18px;
+    letter-spacing: -0.45px;
+    margin-top: 10px;
+}
+ 
+
